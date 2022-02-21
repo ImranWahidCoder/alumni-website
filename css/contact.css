@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.blackLine {
+    width: 100%;
+    height: 15px;
+    background-color: black;
+}
+.header {
+    padding: 30px 60px;
+}
+.brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.brand button {
+    background-color: black;
+    color: white;
+}
+
+.bar {
+    margin-top: 20px;
+}
+
+.container-fluid {
+    background-color: rgb(37, 34, 34);
+}
+.nav-item a{
+    background-color: rgb(37, 34, 34);
+    color: white !important;
+    border-right: 1px solid gray;
+}
+.nav-item :hover {
+    background-color: rgb(247, 4, 4) !important;
+}
+.navbar img {
+    height: 32px;
+    width: 32px;
+    margin: 1px 6px;
+    cursor: pointer;
+}
+.icon i {
+    color: white;
+    padding: 0px 8px;
+    border-right: 1px solid black;
+    cursor: pointer;
+}
+
+.map {
+    margin: 10px;
+    padding: 0px 40px;
+}
+.map iframe {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.contact {
+    margin: 40px 0px;
+}
+
+.contact span {
+    color: rgb(248, 87, 59);
+}
+
+#name , #mail {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+    outline: none;
+    border: none;
+    padding: 0px 10px;
+}
+
+#sub {
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+    outline: none;
+    border: none;
+    padding: 0px 10px;
+    overflow-wrap: break-word;
+    word-break: break-all;
+}
+.box p {
+    margin: 10px 0px;
+}
+
+.box button {
+    outline: none;
+    border: 3px solid red;
+    border-radius: 5px;
+    padding: 5px 30px;
+    margin-top: 10px;
+}
+
+
+.box button:hover {
+    background-color: red;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    flex-wrap: wrap;
+    height: 100px;
+}
+
+@media only screen and (max-width:600px) {
+    .header {
+        padding: 30px 10px;
+    }
+    .map {
+        margin: 2px;
+        padding: 0px;
+    }
+    .icon i {
+        margin: 8px 0px;
+    }
+}
