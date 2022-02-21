@@ -54,13 +54,12 @@
     margin-top: 10px;
 }
 
+.fiction {
+    margin-bottom: 30px;
+}
 
 .fiction i {
     margin-right: 5px;
-}
-
-.fiction p {
-    margin-top: 30px;
 }
 
 .box div {
@@ -116,4 +115,58 @@
 
 .info p {
     font-size: x-large;
+}
+
+.tags {
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.tags div {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 3px;
+}
+.tags div:hover {
+    background-color: red;
+}
+.items h3 {
+    margin-left: 15px;
+    margin-top: 80px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 100px;
+}
+
+@media only screen and (max-width:600px) {
+    .header {
+        padding: 30px 10px;
+    }
+    .icon i {
+        margin: 8px 0px;
+    }
+    .info p {
+        font-size: medium;
+    }
+    .info div {
+        margin: 1px;
+        width: 24%;
+    }
+    .box {
+        margin-bottom: 38px;
+    }
+    .items h3 {
+        margin-left: 5px;
+        margin-top: 20px;
+    }
 }
